@@ -1,0 +1,52 @@
+.main {
+    width: 400px;
+    background-color: grey;
+    margin: auto;
+}
+
+.wrap {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.user-input {
+    width: 300px;
+}
+
+.search-list {
+    padding: 0;
+}
+
+.search-list_item {
+    border: solid;
+    list-style-type: none;
+    background-color: lightgray;
+    padding: 5px 5px 5px 10px;
+    margin: 0;
+}
+
+.search-list_item:hover {
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
+
+.user-choice-list_item {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+    border: solid 1px black;
+    padding: 5px 0 5px 10px;
+}
+
+button {
+    width: 40px;
+    background-color: lightsteelblue;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
